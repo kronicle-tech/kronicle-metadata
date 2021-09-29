@@ -1,0 +1,15 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "tech.kronicle:metadata:$kronicleVersion"
+    }
+}
+
+plugins {
+    id "base"
+}
+
+apply from: "gradle/kronicle-metadata.gradle"
