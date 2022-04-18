@@ -52,6 +52,10 @@ platforms:
     notes:
       AWS ECS is a managed service  for running Docker containers on AWS
 
+  - id: aws-serverless
+    description: |
+      AWS serverless managed services, including AWS Lambda, Step Functions and DynamoDB
+
   - id: aws-cdk
     description: |
       AWS CDK
