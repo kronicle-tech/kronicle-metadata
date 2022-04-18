@@ -20,3 +20,44 @@ teams:
       - url: https://demo.kronicle.tech
         description: |
           The Kronicle live demo
+
+componentTypes:
+  - id: spa
+    description: |
+      [Single Page App (SPA)](https://en.wikipedia.org/wiki/Single-page_application)
+    notes: |
+      A SPA is a web app built using JavaScript based technologies such as Vue.js, React and Angular
+
+  - id: microservice
+    description: |
+      [Microservice](https://martinfowler.com/articles/microservices.html)
+    notes: |
+      A microservice is a particular style of web service.  A typically a microservice focused around a small,
+      particular piece of functionality.
+
+  - id: aws-cdk-config
+    description: |
+      [AWS CDK](https://aws.amazon.com/cdk/) config, implementing Infrastucture as Code (IoC)
+    notes: |
+      [AWS CDK](https://aws.amazon.com/cdk/) config for creating and updating AWS-based infrastructure
+
+  - id: helm-chart
+    description: |
+      A [Helm Chart](https://helm.sh/docs/topics/charts/)
+
+platforms:
+  - id: aws-ecs-fargate
+    description: |
+      AWS ECS with Fargate
+    notes:
+      AWS ECS is a managed service  for running Docker containers on AWS
+
+  - id: aws-cdk
+    description: |
+      AWS CDK
+    notes: |
+      AWS CDK is a tool for implementing tech infrastucture using the Infrastructure as Code (IaC) pattern 
+
+  - id: third-party-platform
+    description: |
+      A third-party platform
